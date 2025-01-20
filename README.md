@@ -13,6 +13,6 @@ This is a simple online grocery store website created using HTML and CSS. It sho
 * CSS: For styling the appearance and presentation of the website, including colors, fonts, and positioning of elements.
 
 ### CONTRIBUTIONS
-Contributions are welcome!If you have suggestions for improvements or new features,feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have suggestions for improvements or new features,feel free to open an issue or submit a pull request.
 ***
 Feel free to adjust any part of this README to better suit your needs!
