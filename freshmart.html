@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart Grocery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .hero {
+            background: url('https://img.freepik.com/free-photo/mixed-summer-fruits-grocery-stands_114579-11525.jpg?t=st=1737391313~exp=1737394913~hmac=8f3f3be444421a0aa2eb1e7719747f4e1072a3b64f7b0911121923a35bf7d54c&w=1380') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(244, 241, 241);
+            text-shadow: 2px 2px 4px rgba(13, 0, 0, 0.558);
+            font-size: 250%;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .product {
+            display: inline-block;
+            background: white;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .product p {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreshMart Grocery</h1>
+        <p>Your one-stop shop for fresh produce and more!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <div>Welcome to FreshMart Grocery</div>
+    </section>
+
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="https://image.freepik.com/free-photo/red-apples-isolated-white-background_299651-65.jpg" alt="Product 1">
+            <h3>Apples</h3>
+            <p>₹120 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="http://2.bp.blogspot.com/-B9jzIiTWWdw/UFmZVcGMWTI/AAAAAAAABIw/YxRPjqgflrQ/s1600/75.jpg" alt="Product 2">
+            <h3>Bananas</h3>
+            <p>₹50 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.zhxQkcQqDN2vsCYJDZuzswHaHa&pid=Api&P=0&h=220" alt="Product 3">
+            <h3>Oranges</h3>
+            <p>₹80 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://img.freepik.com/free-psd/delicious-mango-studio_23-2151843115.jpg?ga=GA1.1.565609698.1737391275&semt=ais_incoming" alt="Product 4">
+            <h3>Mangoes</h3>
+            <p>₹330 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.WOCz5hm7OPAG13ASYsBpggHaFi&pid=Api&P=0&h=220" alt="Product 5">
+            <h3>Kiwis</h3>
+            <p>₹460 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.EOAO5sWVprkMnrPEOvqmfAHaE7&pid=Api&P=0&h=220" alt="Product 6">
+            <h3>Blueberries</h3>
+            <p>₹380 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.z7DwNsBjkNSig_duAM6XwQHaFF&pid=Api&P=0&h=220" alt="Product 7">
+            <h3>Pomegranates</h3>
+            <p>₹200 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JVGpdhp1zVHG1C-KCPj0pgHaHa&pid=Api&P=0&h=220" alt="Product 8">
+            <h3>Pineapples</h3>
+            <p>₹187 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.Wh-Gn1s-y9hh_7oEp6fB7gHaE7&pid=Api&P=0&h=220" alt="Product 9">
+            <h3>Pears</h3>
+            <p>₹129 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.EV3Fc6yn2jof9SU0RiRSywHaE_&pid=Api&P=0&h=220" alt="Product 10">
+            <h3>Strawberries</h3>
+            <p>₹500 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 FreshMart Grocery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
